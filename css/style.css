@@ -1,0 +1,512 @@
+html{
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    scroll-behavior: smooth;
+    min-width: 1366px;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(247, 243, 243);
+    font-family: 'Questrial', sans-serif;
+    color: rgb(88, 87, 87);
+    overflow-x: hidden;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2%;
+    margin-bottom: 180px;
+    padding-bottom: 50px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: white;
+}
+
+.header-left, .header-right{
+    display: flex;
+    height: 40px;
+}
+
+.logo-img{
+    width: 120px;
+    height: 118.219px;
+    margin-top: -45px;
+    margin-left: -30px;
+    animation: logo 5s infinite;
+}
+
+@keyframes logo{
+    0% {transform: scale(1);}
+    50% {transform: scale(0.8);}
+    0% {transform: scale(1);}
+}
+
+.logoname{
+    color: darkblue;
+    font-size: 2.4rem;
+    padding-right: 70px;
+    margin-left: -30px;
+    margin-top: -5px;
+}
+
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+li{
+    list-style: none;
+    font-size: 1rem;
+    line-height: 23px;
+}
+
+.list-item{
+    padding: 1px 10px;
+    font-size: 1.1rem;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(88, 87, 87);
+}
+
+.header-list-left{
+    display: flex;
+    padding-top: 10px;
+}
+
+.header-list-right{
+    display: flex;
+    padding-top: 10px;
+}
+
+.try-for-free{
+    margin-top: -10px;
+    height: 30px;
+    border: 1px solid black; 
+    border-radius: 30px; 
+    padding: 10px 20px 0px; 
+    background-color: darkblue; 
+    color: white; 
+    border: 0px;
+    transition: 1s;
+}
+
+.try-for-free:hover{
+    transform: scale(1.1);
+}
+
+.request{
+    width: 220px;
+    transition: 1s;
+    padding: 15px;
+    box-shadow: 1px 5px 10px 1px rgb(148, 148, 197);
+    outline: none;
+}
+
+.request:active{
+    outline: none;
+}
+
+.request:hover{
+    transform: scale(0.9);
+}
+
+.top-list:hover{
+    margin-top: -5px;
+}
+
+#main-page-1{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    padding-bottom: 150px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#main-page-3{
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: 300px;
+}
+
+#main-page-4{
+    display: block;
+    text-align: center;
+    margin-top: -100px;
+    background-color: white;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.page-1{
+    width: 500px;
+    background-color: white;
+    padding: 50px 50px 50px 50px;
+    box-shadow: -1px -1px 10px -2px grey;
+    -moz-box-shadow: -1px -1px 10px 2px grey;
+    -webkit-box-shadow: -1px -1px 10px 2px grey;
+}
+
+.body-page-4{
+    background-color: white;
+}
+
+label{
+    font-weight: 500;
+}
+
+.name{
+    display: flex;
+    gap: 30px;
+}
+
+input, select{
+    height: 50px;
+    border-radius: 5px;
+    border: 2px solid rgb(48, 48, 48);
+    width: 434px;
+    margin-bottom: 30px;
+    font-size: 1.2rem;
+}
+
+input{
+    padding: 0px 10px;
+}
+
+select{
+    height: 56px;
+    width: 458px;
+}
+
+textarea{
+    width: 434px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px 10px;
+}
+
+.country{
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+}
+
+.details{
+    padding-top: 60px;
+}
+
+button{
+    width: 460px;
+    font-size: 1.2rem;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 50px;
+    border: none;
+    background-color: darkblue;
+    color: white;
+}
+
+p{
+    line-height: 25px;
+    font-size: 1rem;
+}
+
+.request-details{
+    font-size: 1.2rem;
+}
+
+.top-footer{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+
+.footer-details{
+    font-size: 0.9rem;
+    display: flex;
+    float: right;
+    gap: 20px;
+}
+
+hr{
+    margin-bottom: 40px;
+}
+
+.bottom-footer{
+    padding: 0px 0px 20px 0px;
+    font-size: 1.5rem;
+}
+
+.language{
+    width: 200px;
+    border-color: darkblue;
+    color: darkblue;
+    padding: 0px 20px;
+    font-size: 1.2rem;
+}
+
+footer{
+    background-color: white;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+}
+
+.fa-linkedin{
+    color: #0e76a8;
+    background-color: white;
+}
+
+.iconify{
+    font-size: 3rem;
+    margin-right: 20px;
+    margin-left: 20px;
+    color: rgb(53, 53, 194);
+}
+
+a{
+    text-decoration: none;
+}
+
+.circle{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: rgb(180, 24, 180);
+    position: absolute;
+    top: 500px;
+    left: 190px;
+}
+
+.rectangle{
+    width: 160px;
+    height: 40px;
+    background-color: white;
+    color: rgb(180, 24, 180);
+    box-shadow: 0px 20px 20px 1px  rgb(247, 222, 247);
+    border-radius: 10px;
+    padding: 10px;
+    line-height: 20px;
+    position: absolute;
+    top: 600px;
+    left: 174px;
+    z-index: 4;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.circle1{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid  rgb(190, 51, 0);
+    position: absolute;
+    top: 280px;
+    left: 1020px;
+    background-color: white;
+}
+
+.rectangle1{
+    width: 160px;
+    height: 40px;
+    background-color: rgb(190, 51, 0);
+    color: white;
+    box-shadow: 0px 20px 20px 1px  rgb(255, 226, 216);
+    border-radius: 10px;
+    padding: 10px;
+    line-height: 20px;
+    position: absolute;
+    top: 380px;
+    left: 1005px;
+    z-index: 4;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.page3-msg{
+    width: 1200px;
+    text-align: center;
+    margin-top: 200px;
+}
+
+.connect-lines{
+    border: 2px dashed rgb(211, 210, 210); 
+    margin: 0 auto; 
+    height: 1000px; 
+    width: 1000px; 
+    border-radius: 50%;
+    border-bottom: none; 
+    border-right: none; 
+    border-left: none; 
+    transform: rotate(-20deg);
+    position: absolute;
+    top: 150px;
+    left: 230px;
+    z-index: -10;
+}
+
+.company-bond-logo{
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 40px;
+}
+
+.below-company-logo{
+    background-color: darkblue;;
+    color: white;
+    padding: 50px 50px 200px;
+}
+
+.details-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px;
+}
+
+.medal-section{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    width: 60%;
+    border-radius: 10px;
+    margin: -130px auto;
+    margin-bottom: 150px;
+    box-shadow: 5px 10px 20px -10px;
+    padding: 20px 0px;
+}
+
+#product-wrapper{
+    min-width: 1366px;
+    background-color: white;
+    height: 200px;
+    position: absolute;
+    left: 0;
+    top: 100px;
+    z-index: 3;
+    box-shadow: 1px 10px 10px;
+    display: none;
+}
+
+#product-list{
+    padding: 50px 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.product-head{
+    font-weight: bold;
+}
+
+#medal{
+    position: relative;
+    animation: medal 5s infinite;
+}
+
+@keyframes medal{
+    0% {top: 0px;}
+    50% {top: 10px;}
+    100% {top: 0px;}
+}
+
+.section1{
+    padding-top: 90px;
+    margin-top: -200px;
+}
+
+#svg2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+    padding-bottom: 70px;
+}
+
+#comment-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: darkblue;
+    margin-right: 10px;
+}
+
+#comment-block{
+    width: 250px;
+    padding: 20px;
+    margin: auto;
+    margin-top: -110px;
+    background-color: white;
+    display: flex;
+}
+
+#ng-note, #gh-note, #ma-note, #tun-note, #sa-note, #eg-note, #ken-note, #tan-note{
+    width: 160px;
+    height: 110px;
+    border-radius: 10px;
+    font-size: 0.8rem;
+}
+
+#ng-note{
+    position: absolute;
+    top: 2300px;
+    left: 500px;
+    display: none;
+}
+
+#gh-note{
+    position: absolute;
+    top: 2300px;
+    left: 450px;
+    display: none;
+}
+
+#ma-note{
+    position: absolute;
+    top: 2100px;
+    left: 340px;
+    display: none;
+}
+
+#tun-note{
+    position: absolute;
+    top: 1975px;
+    left: 600px;
+    display: none;
+}
+
+#eg-note{
+    position: absolute;
+    top: 2050px;
+    left: 780px;
+    display: none;
+}
+
+#ken-note{
+    position: absolute;
+    top: 2250px;
+    left: 850px;
+    display: none;
+}
+
+#tan-note{
+    position: absolute;
+    top: 2290px;
+    left: 850px;
+    display: none;
+}
+
+#sa-note{
+    position: absolute;
+    top: 2530px;
+    left: 750px;
+    display: none;
+}
+
+@media screen and (max-width: 480px) {
+    
+}
