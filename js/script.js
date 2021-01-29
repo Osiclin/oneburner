@@ -51,3 +51,24 @@ function closeCountryNote() {
 }
 
 closeCountryNote();
+
+
+
+var animateMedalBlock = document.getElementById('medal-section');
+var ambposition = animateMedalBlock.offsetTop;
+
+//hide medal sction
+animateMedalBlock.style.visibility = 'hidden';
+
+
+window.addEventListener('scroll', ()=> {
+    if(window.pageYOffset > 935) {  
+        
+        
+        setInterval(()=>{ 
+            animateMedalBlock.style.visibility = 'visible'; 
+            animateMedalBlock.classList.add('slideUp');
+        },100)
+    }
+});
+console.log(window.pageYOffset);
