@@ -13,7 +13,10 @@ body{
     padding: 0;
     background-color: rgb(247, 243, 243);
     font-family: 'Questrial', sans-serif;
+    font-size: 1rem;
     color: rgb(88, 87, 87);
+    margin: 0 auto;
+    position: relative;
 }
 
 header{
@@ -151,8 +154,9 @@ a{
 
 .page-1{
     width: 500px;
+    border-radius: 5px;
     background-color: white;
-    padding: 50px 50px 50px 50px;
+    padding: 30px 30px;
     box-shadow: -1px -1px 10px -2px grey;
     -moz-box-shadow: -1px -1px 10px 2px grey;
     -webkit-box-shadow: -1px -1px 10px 2px grey;
@@ -348,6 +352,7 @@ a{
     border-bottom: none; 
     border-right: 3px dashed  rgb(211, 210, 210); 
     border-left: 3px dashed  rgb(211, 210, 210);
+    position: relative;
     z-index: -10;
 }
 
@@ -357,20 +362,20 @@ a{
     border-radius: 50%;
     background-color: purple;
     position: absolute;
-    top: 400px;
-    left: 269px;
+    top: 200px;
+    left: -7px;
     animation: move 10s infinite;
 }
 
 @keyframes move{
-    0% {top: 400px; left: 260px; background-color: purple;}
-    12.5% {top: 185px; left: 260px; background-color: purple;}
-    25% {top: 185px; left: 1080px; background-color: purple;}
-    37.5% {left: 1080px; bottom: 400px; background-color: purple;}
-    50% {top: 400px; left: 1080; background-color: orangered;}
-    62.5% {top: 185px; left: 1080px; background-color: orangered;}
-    75% {top: 185px; left: 260px; background-color: orangered;}
-    100% {left: 260px; bottom: 400px; background-color: orangered;}
+    0% {top: 200px; left: -7px; background-color: purple;}
+    12.5% {top: -7px; left: -7px; background-color: purple;}
+    25% {top: -7px; left: 815px; background-color: purple;}
+    37.5% {left: 815px; top: 200px; background-color: purple;}
+    50% {top: 200px; left: 815px; background-color: orangered;}
+    62.5% {top: -7px; left: 815px; background-color: orangered;}
+    75% {top: -7px; left: -7px; background-color: orangered;}
+    100% {left: -7px; top: 200px; background-color: orangered;}
 }
 
 .company-bond-logo{
