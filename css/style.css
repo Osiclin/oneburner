@@ -490,14 +490,14 @@ a{
 
 #ng-note{
     position: absolute;
-    top: 2230px;
+    top: 2200px;
     left: 480px;
     display: none;
 }
 
 #gh-note{
     position: absolute;
-    top: 2230px;
+    top: 2200px;
     left: 450px;
     display: none;
 }
@@ -511,7 +511,7 @@ a{
 
 #tun-note{
     position: absolute;
-    top: 1885px;
+    top: 1880px;
     left: 600px;
     display: none;
 }
@@ -525,21 +525,21 @@ a{
 
 #ken-note{
     position: absolute;
-    top: 2250px;
+    top: 2200px;
     left: 850px;
     display: none;
 }
 
 #tan-note{
     position: absolute;
-    top: 2290px;
+    top: 2200px;
     left: 850px;
     display: none;
 }
 
 #sa-note{
     position: absolute;
-    top: 2530px;
+    top: 2400px;
     left: 750px;
     display: none;
 }
